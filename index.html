@@ -117,7 +117,7 @@
               <p>If a dog chews shoes whose shoes does he choose?</p>
               <div class="card-actions justify-between">
 
-                <button class="btn btn-primary btn-outline w-40"><i class="fa-solid fa-circle-info mr-2"></i>See Details</button>
+                <label for="my-modal-3" class="btn btn-primary btn-outline w-40"><i class="fa-solid fa-circle-info mr-2"></i>See Details</label>
 
                 <button class="btn btn-secondary btn-outline w-40"><i class="fa-solid fa-briefcase mr-2"></i>Buy Now</button>
 
@@ -139,8 +139,8 @@
               <p>If a dog chews shoes whose shoes does he choose?</p>
               <div class="card-actions justify-between">
 
-                <button class="btn btn-primary btn-outline w-40"><i class="fa-solid fa-circle-info mr-2"></i>See Details</button>
-
+                <label for="my-modal-3" class="btn btn-primary btn-outline w-40"><i class="fa-solid fa-circle-info mr-2"></i>See Details</label>
+                
                 <button class="btn btn-secondary btn-outline w-40"><i class="fa-solid fa-briefcase mr-2"></i>Buy Now</button>
                 
               </div>
@@ -161,7 +161,7 @@
               <p>If a dog chews shoes whose shoes does he choose?</p>
               <div class="card-actions justify-between">
 
-                <button class="btn btn-primary btn-outline w-40"><i class="fa-solid fa-circle-info mr-2"></i>See Details</button>
+                <label for="my-modal-3" class="btn btn-primary btn-outline w-40"><i class="fa-solid fa-circle-info mr-2"></i>See Details</label>
 
                 <button class="btn btn-secondary btn-outline w-40"><i class="fa-solid fa-briefcase mr-2"></i>Buy Now</button>
                 
@@ -183,7 +183,7 @@
               <p>If a dog chews shoes whose shoes does he choose?</p>
               <div class="card-actions justify-between">
 
-                <button class="btn btn-primary btn-outline w-40"><i class="fa-solid fa-circle-info mr-2"></i>See Details</button>
+                <label for="my-modal-3" class="btn btn-primary btn-outline w-40"><i class="fa-solid fa-circle-info mr-2"></i>See Details</label>
 
                 <button class="btn btn-secondary btn-outline w-40"><i class="fa-solid fa-briefcase mr-2"></i>Buy Now</button>
                 
@@ -205,7 +205,7 @@
               <p>If a dog chews shoes whose shoes does he choose?</p>
               <div class="card-actions justify-between">
 
-                <button class="btn btn-primary btn-outline w-40"><i class="fa-solid fa-circle-info mr-2"></i>See Details</button>
+                <label for="my-modal-3" class="btn btn-primary btn-outline w-40"><i class="fa-solid fa-circle-info mr-2"></i>See Details</label>
 
                 <button class="btn btn-secondary btn-outline w-40"><i class="fa-solid fa-briefcase mr-2"></i>Buy Now</button>
                 
@@ -227,7 +227,7 @@
               <p>If a dog chews shoes whose shoes does he choose?</p>
               <div class="card-actions justify-between">
 
-                <button class="btn btn-primary btn-outline w-40"><i class="fa-solid fa-circle-info mr-2"></i>See Details</button>
+                <label for="my-modal-3" class="btn btn-primary btn-outline w-40"><i class="fa-solid fa-circle-info mr-2"></i>See Details</label>
 
                 <button class="btn btn-secondary btn-outline w-40"><i class="fa-solid fa-briefcase mr-2"></i>Buy Now</button>
                 
@@ -235,19 +235,41 @@
             </div>
           </div>
 
-
         </div>
         
       </div> 
+
+      <!-- Drawer Side -->
       <div class="drawer-side">
         <label for="my-drawer-4" class="drawer-overlay"></label>
         <ul class="menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content">
           <!-- Sidebar content here -->
-          <li><a>Sidebar Item 1</a></li>
-          <li><a>Sidebar Item 2</a></li>
+          <div class="">
+            <h2 class="text-center text-2xl font-bold mb-3">CART ITEMS</h2>
+            <div class="flex justify-between items-center bg-white p-4 rounded-md">
+              <img class="w-[10%]" src="img/cart-product.png" alt="">
+              <p class="text-black">My Product 01</p>
+              <p class="text-black border-2 border-black px-4 rounded-md">1</p>
+              <i class="fa-solid fa-trash text-red-700"></i>
+            </div>
+            <button class="btn bg-red-700 hover:bg-red-500 text-white content-center">CLEAR CART</button>
+            
+          </div>
+          
         </ul>
       </div>
     </div>
+
+
+  <!-- Modal at See Details Button -->
+  <!-- Put this part before tag -->
+  <input type="checkbox" id="my-modal-3" class="modal-toggle" />
+  <div class="modal">
+    <div class="modal-box relative">
+      <label for="my-modal-3" class="btn btn-sm btn-circle absolute right-1 top-1">✕</label>
+      <img class="rounded-lg w-full" src="img/modal.jpg" alt="">
+    </div>
+  </div>
 
 
     <!-- Footer -->
